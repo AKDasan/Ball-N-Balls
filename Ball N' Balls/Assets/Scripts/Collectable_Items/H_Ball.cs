@@ -6,7 +6,7 @@ public class H_Ball : MonoBehaviour , ICollectable
 {
     public void Collect()
     {
-        // Ball toplanýldýðýnda yapýlacak iþlemler...
+        Health_UI_Controller.instance.IncreaseHealth();
         Destroy(gameObject);
     }
 }

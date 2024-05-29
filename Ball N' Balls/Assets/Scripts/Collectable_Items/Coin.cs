@@ -6,7 +6,7 @@ public class Coin : MonoBehaviour, ICollectable
 {
     public void Collect()
     {
-        // Coin toplanýldýðýnda yapýlacak iþlemler...
+        Coin_UI_Controller.instance.IncreaseCoin();
         Destroy(gameObject);
     }
 }
