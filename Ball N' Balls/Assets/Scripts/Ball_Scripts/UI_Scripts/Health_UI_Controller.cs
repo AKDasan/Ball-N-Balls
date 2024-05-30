@@ -33,4 +33,17 @@ public class Health_UI_Controller : MonoBehaviour
 
         //Debug.Log(tParentChild);
     }
+
+    public void DecreaseHealth()
+    {
+        int tParentChild = targetParent.transform.childCount;
+
+        if (tParentChild > 0)
+        {
+            Transform lastChild = targetParent.transform.GetChild(tParentChild - 1);
+            Destroy(lastChild.gameObject);
+        }
+
+        //Debug.Log(tParentChild);
+    }
 }
