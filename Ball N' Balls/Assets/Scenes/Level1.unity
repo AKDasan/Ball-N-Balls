@@ -1719,6 +1719,37 @@ MonoBehaviour:
   m_Spacing: {x: 5, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 5
+--- !u!1 &2031157958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031157959}
+  m_Layer: 0
+  m_Name: ------------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031157959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031157958}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.6748953, y: -3.2599235, z: 13.17198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8421175208304933779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1780,18 +1811,19 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1900935732}
+  - {fileID: 832753541}
+  - {fileID: 1310412450}
+  - {fileID: 1338498861}
+  - {fileID: 204363831}
   - {fileID: 963194228}
   - {fileID: 705507995}
+  - {fileID: 2031157959}
   - {fileID: 602701268}
   - {fileID: 8421175208304933779}
   - {fileID: 559583696}
   - {fileID: 516213981}
   - {fileID: 1883256307}
   - {fileID: 1564131069}
-  - {fileID: 1900935732}
-  - {fileID: 204363831}
-  - {fileID: 1338498861}
-  - {fileID: 1310412450}
-  - {fileID: 832753541}
   - {fileID: 1247290249}
   - {fileID: 494937266}
