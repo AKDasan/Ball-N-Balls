@@ -8,6 +8,7 @@ public class H_Ball : MonoBehaviour , ICollectable
     {
         Health_UI_Controller.instance.IncreaseHealth();
         Level_Controller.instance.updateCheckPoint(transform);
+        Audio_Manager.instance.H_ballCollectSound();
         Destroy(gameObject);
     }
 }
